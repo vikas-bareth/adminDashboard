@@ -371,3 +371,14 @@ body {
 .trend-4 .picture{
     background-image: var(--avatar4);
 }
+
+
+
+.projects .card{
+    height: 100%;
+    transition: all 100ms;
+}
+
+.projects .card:hover{
+    transform: scale(1.015);
+}
